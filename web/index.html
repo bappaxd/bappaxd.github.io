@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Page</title>
+    <script>
+        function checkPassword() {
+            const password = prompt("Parsonal data, So enter the password to open : ");
+            const correctPassword = "1234";
+
+            if (password !== correctPassword) {
+                alert("Incorrect password!");
+                document.body.innerHTML = "<h1>Access Denied âš ï¸</h1>";
+            } else {
+                document.getElementById("content").style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <div id="content" style="display: none;">
+             <b><p style="color:blue; text-align:center">
+<h1> </h1>
+   <body>
+        <center/>
+        <img src="https://i.postimg.cc/rp3w3zyp/7Xw.gif"
+            " style="width: 90% ">
+<h1> </h1><b><p style="color:green; text-align:center">
+Sensitive data ðŸ™‚
+  <h1> </h1>
+  <h1> </h1><b><p style="color:blue; text-align:center">
+</h2>
+
+            </div>
+    </div>
+</body>
+  </html>
